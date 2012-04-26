@@ -38,7 +38,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *easyTweetButton;
 @property (weak, nonatomic) IBOutlet UILabel *HiddenLbl;
 @property (strong, nonatomic) UIWindow *window;
-//@property (retain, nonatomic) NSArray *permissions;
 @property (nonatomic, retain) NSString *message;
 
 @property (weak, nonatomic) IBOutlet iCarousel *carousel;

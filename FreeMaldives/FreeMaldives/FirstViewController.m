@@ -16,7 +16,8 @@
 #import "Facebook.h"
 #import "AppDelegate.h"
 #import "SVProgressHUD.h"
-
+#import "SBTickerView.h"
+#import "SBTickView.h"
 
 
 //#import "NSDate-Utilities.m"
@@ -51,6 +52,14 @@
 //@synthesize permissions;
 @synthesize message;
 @synthesize facebook;
+
+@synthesize clockTickerViewHour1;
+@synthesize clockTickerViewHour2;
+@synthesize clockTickerViewMinute1;
+@synthesize clockTickerViewMinute2;
+@synthesize clockTickerViewSecond1;
+@synthesize clockTickerViewSecond2;
+@synthesize clockTickerViewDay1,clockTickerViewDay2,clockTickerViewDay3;
 
 
 
@@ -105,7 +114,7 @@
 - (void)viewDidLoad
 {
        
-    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgwood.png"]]];
+    [[self view] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"just_background.png"]]];
     
     UINavigationBar *navBar = [[self navigationController] navigationBar];
     UIImage *backgroundImage = [UIImage imageNamed:@"topbarblknew.png"];
@@ -127,7 +136,27 @@
       nil]];
     
     
-    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
+    //[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
+    
+    // timer
+    [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(numberTick:) userInfo:nil repeats:YES];
+    
+    //Init
+    _currentClock = @"000000000";
+    _clockTickers = [NSArray arrayWithObjects:
+                     clockTickerViewDay1,
+                     clockTickerViewDay2,
+                     clockTickerViewDay3,
+                     clockTickerViewHour1,
+                     clockTickerViewHour2,
+                     clockTickerViewMinute1,
+                     clockTickerViewMinute2,
+                     clockTickerViewSecond1,
+                     clockTickerViewSecond2, nil];
+    
+    for (SBTickerView *ticker in _clockTickers)
+        [ticker setFrontView:[SBTickView tickViewWithTitle:@"0" fontSize:35.]];
+    //
     
     carousel.type = iCarouselTypeCoverFlow;
     
@@ -576,6 +605,70 @@
 
 //FBSessionDelegate implementation: Save user's credentials (accces token and corresponding expiration date)
 
+- (void)numberTick:(id)sender {
+    
+    /* date fix
+     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+     [formatter setDateFormat:@"HHmmss"];
+     NSString *newClock = [formatter stringFromDate:[NSDate date]];
+     */
+    NSDateComponents *comps = [[NSDateComponents alloc] init];
+    [comps setYear:2012];
+    [comps setMonth:2];
+    [comps setDay:7];
+    [comps setHour:1];
+    [comps setMinute:0];
+    
+    
+    
+    NSDate *now = [NSDate date];
+    NSDate *MyTargetDateObject;
+    
+    MyTargetDateObject = [[NSCalendar currentCalendar] dateByAddingComponents:comps toDate:now options:0];
+	//[comps release];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    //[dateFormatter setDateFormat:@"'Due' EEEE d MMM yyyy, h:mm a"];
+    [dateFormatter setDateFormat:@"ddd:hh:mm:ss"];
+    
+    //[TimerLabel setText:[dateFormatter  stringFromDate:MyTargetDateObject]];
+    //self.TimerLabel.text = (@"d%",mydate);
+    
+    // original string
+    NSString *str = [NSString stringWithFormat:@"2012-02-7T13:00:00+11:00"];
+    
+    // convert to date
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    // ignore +11 and use timezone name instead of seconds from gmt
+    [dateFormat setDateFormat:@"YYYY-MM-dd'T'HH:mm:ss'+11:00'"];
+    [dateFormat setTimeZone:[NSTimeZone timeZoneWithName:@"Indian/Maldives"]];
+    NSDate *otherDate = [dateFormat dateFromString:str];
+    //NSLog(@"Date: %@", otherDate);
+    
+    NSDate *date=[NSDate date];
+    int secondsNow=(int)[date timeIntervalSince1970];
+    int secondsTarget=(int)[otherDate timeIntervalSince1970];
+    int differenceSeconds=secondsNow-secondsTarget;
+    int days=(int)((double)differenceSeconds/(3600.0*24.00));
+    int diffDay=differenceSeconds-(days*3600*24);
+    int hours=(int)((double)diffDay/3600.00);
+    int diffMin=diffDay-(hours*3600);
+    int minutes=(int)(diffMin/60.0);
+    int seconds=diffMin-(minutes*60);
+    
+    NSString *newClock = [NSString stringWithFormat:@"%03d%02d%02d%02d",days,hours,minutes,seconds];
+    //
+    [_clockTickers enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (![[_currentClock substringWithRange:NSMakeRange(idx, 1)] isEqualToString:[newClock substringWithRange:NSMakeRange(idx, 1)]]) {
+            [obj setBackView:[SBTickView tickViewWithTitle:[newClock substringWithRange:NSMakeRange(idx, 1)] fontSize:35.]];
+            [obj tick:SBTickerViewTickDirectionDown animated:YES completion:nil];
+        }
+    }];
+    
+    _currentClock = newClock;
+    
+    NSLog(@"Clock: %@",_currentClock);
+}
 
 
 

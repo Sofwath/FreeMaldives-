@@ -9,6 +9,7 @@
 #import "QuadCurveMenu.h"
 #import <QuartzCore/QuartzCore.h>
 
+/*
 static CGFloat const kQuadCurveMenuDefaultNearRadius = 110.0f;
 static CGFloat const kQuadCurveMenuDefaultEndRadius = 120.0f;
 static CGFloat const kQuadCurveMenuDefaultFarRadius = 140.0f;
@@ -17,6 +18,17 @@ static CGFloat const kQuadCurveMenuDefaultStartPointY = 150.0;
 static CGFloat const kQuadCurveMenuDefaultTimeOffset = 0.036f;
 static CGFloat const kQuadCurveMenuDefaultRotateAngle = 20.42;
 static CGFloat const kQuadCurveMenuDefaultMenuWholeAngle = M_PI * 2;
+*/
+
+static CGFloat const kQuadCurveMenuDefaultNearRadius = 70.0f;
+static CGFloat const kQuadCurveMenuDefaultEndRadius = 70.0f;
+static CGFloat const kQuadCurveMenuDefaultFarRadius = 60.0f;
+static CGFloat const kQuadCurveMenuDefaultStartPointX = 35.0;
+static CGFloat const kQuadCurveMenuDefaultStartPointY = 383.0;
+static CGFloat const kQuadCurveMenuDefaultTimeOffset = 0.036f;
+static CGFloat const kQuadCurveMenuDefaultRotateAngle = 51.82;
+static CGFloat const kQuadCurveMenuDefaultMenuWholeAngle = M_PI * 3;
+
 
 
 static CGPoint RotateCGPointAroundCenter(CGPoint point, CGPoint center, float angle)

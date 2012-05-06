@@ -15,14 +15,6 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Coup Time" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontSizeToFit="NO" id="20" userLabel="TimerLabel">
-                                <rect key="frame" x="8" y="45" width="304" height="50"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="42"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" id="rC0-TZ-aYI">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -30,42 +22,50 @@
                                     <navigationItem title="Maldives Democracy Movement" id="FVE-1l-ccK"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Since the coup in Maldives. Call for immediate elections" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="MK2-Wm-u0Z">
-                                <rect key="frame" x="10" y="106" width="330" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Since the coup in Maldives. Call for immediate elections" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="MK2-Wm-u0Z">
+                                <rect key="frame" x="6" y="122" width="307" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="9Xl-9x-HCt">
-                                <rect key="frame" x="50" y="88" width="42" height="21"/>
+                                <rect key="frame" x="41" y="100" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="9Rc-Fg-dl1">
-                                <rect key="frame" x="118" y="88" width="42" height="21"/>
+                                <rect key="frame" x="121" y="100" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Mins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="CLX-Ua-mZF">
-                                <rect key="frame" x="180" y="88" width="42" height="21"/>
+                                <rect key="frame" x="195" y="100" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Secs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="XKv-L6-vr8">
-                                <rect key="frame" x="239" y="88" width="42" height="21"/>
+                                <rect key="frame" x="265" y="100" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="0.0"/>
                             </label>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="d1R-m0-rKo" userLabel="HiddenLbl">
                                 <rect key="frame" x="139" y="180" width="42" height="21"/>
@@ -82,6 +82,51 @@
                                     <outlet property="delegate" destination="2" id="7w6-dk-MlP"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" id="meQ-EI-iUm" customClass="SBTickerView">
+                                <rect key="frame" x="6" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="PQt-jd-cJA" customClass="SBTickerView">
+                                <rect key="frame" x="39" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="CIs-9C-Ktn" customClass="SBTickerView">
+                                <rect key="frame" x="72" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Uqa-HQ-vM5" customClass="SBTickerView">
+                                <rect key="frame" x="109" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="udf-tA-GYN" customClass="SBTickerView">
+                                <rect key="frame" x="142" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YLI-oJ-a7y" customClass="SBTickerView">
+                                <rect key="frame" x="179" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YQw-ZK-18j" customClass="SBTickerView">
+                                <rect key="frame" x="212" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="ilh-eN-pQy" customClass="SBTickerView">
+                                <rect key="frame" x="249" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="lxY-eC-o21" customClass="SBTickerView">
+                                <rect key="frame" x="282" y="58" width="31" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -89,8 +134,16 @@
                     <navigationItem key="navigationItem" id="1Ao-I2-0Ri"/>
                     <connections>
                         <outlet property="HiddenLbl" destination="d1R-m0-rKo" id="iFh-yd-e3O"/>
-                        <outlet property="TimerLabel" destination="20" id="sRB-td-oey"/>
                         <outlet property="carousel" destination="y2j-BQ-wsd" id="TLN-ct-Tt2"/>
+                        <outlet property="clockTickerViewDay1" destination="meQ-EI-iUm" id="QXj-lY-UZz"/>
+                        <outlet property="clockTickerViewDay2" destination="PQt-jd-cJA" id="ixN-zQ-5uJ"/>
+                        <outlet property="clockTickerViewDay3" destination="CIs-9C-Ktn" id="Adw-Lf-gAo"/>
+                        <outlet property="clockTickerViewHour1" destination="Uqa-HQ-vM5" id="Cnf-cu-EDa"/>
+                        <outlet property="clockTickerViewHour2" destination="udf-tA-GYN" id="Dfy-FH-1Tt"/>
+                        <outlet property="clockTickerViewMinute1" destination="YLI-oJ-a7y" id="K7w-ud-k0E"/>
+                        <outlet property="clockTickerViewMinute2" destination="YQw-ZK-18j" id="uKa-zr-1ke"/>
+                        <outlet property="clockTickerViewSecond1" destination="ilh-eN-pQy" id="atQ-ov-oI5"/>
+                        <outlet property="clockTickerViewSecond2" destination="lxY-eC-o21" id="q8i-ZR-r3D"/>
                     </connections>
                 </viewController>
             </objects>
@@ -1829,8 +1882,19 @@ country stands the risk of joining the league of failed democracies in the regio
                 <relationship kind="action" name="sendEasyTweet:"/>
                 <relationship kind="outlet" name="HiddenLbl" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="TimerLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="backView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="carousel" candidateClass="iCarousel"/>
+                <relationship kind="outlet" name="clockTickerViewDay1" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewDay2" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewDay3" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewHour1" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewHour2" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewMinute1" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewMinute2" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewSecond1" candidateClass="SBTickerView"/>
+                <relationship kind="outlet" name="clockTickerViewSecond2" candidateClass="SBTickerView"/>
                 <relationship kind="outlet" name="easyTweetButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="frontView" candidateClass="UIView"/>
             </relationships>
         </class>
         <class className="MDMWebViewController" superclassName="UIViewController">
@@ -1841,6 +1905,9 @@ country stands the risk of joining the league of failed democracies in the regio
                 <relationship kind="outlet" name="urlList" candidateClass="UIBarButtonItem"/>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
+        </class>
+        <class className="SBTickerView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SBTickerView.h"/>
         </class>
         <class className="TimeViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TimeViewController.h"/>

@@ -20,6 +20,7 @@
 // original start
 //@interface FirstViewController: UIViewController <iCarouselDataSource, iCarouselDelegate>
 
+@class SBTickerView;
 
 @interface FirstViewController : UIViewController <UIApplicationDelegate, iCarouselDataSource, iCarouselDelegate, QuadCurveMenuDelegate,FBSessionDelegate>
 
@@ -29,6 +30,9 @@
     NSString *message;
     
     Facebook *facebook;
+    
+    NSString *_currentClock;
+    NSArray *_clockTickers;
        
     
 }
@@ -38,12 +42,27 @@
 @property (weak, nonatomic) IBOutlet UIButton *easyTweetButton;
 @property (weak, nonatomic) IBOutlet UILabel *HiddenLbl;
 @property (strong, nonatomic) UIWindow *window;
+//@property (retain, nonatomic) NSArray *permissions;
 @property (nonatomic, retain) NSString *message;
 
 @property (weak, nonatomic) IBOutlet iCarousel *carousel;
 @property (nonatomic) BOOL isConnected;
 @property (nonatomic, strong) Facebook *facebook;
 
+//ticker
+
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewDay1;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewDay2;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewDay3;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewHour1;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewHour2;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewMinute1;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewMinute2;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewSecond1;
+@property (nonatomic, strong) IBOutlet SBTickerView *clockTickerViewSecond2;
+
+@property (nonatomic, strong) IBOutlet UIView *frontView;
+@property (nonatomic, strong) IBOutlet UIView *backView;
 
 
 - (IBAction)sendEasyTweet:(id)sender;

@@ -131,6 +131,14 @@
 - (void)_setup {
     _duration = .5;
     [self setBackgroundColor:[UIColor clearColor]];
+    
+    //UIGraphicsBeginImageContext(self.frame.size);
+    //[[UIImage imageNamed:@"clockbg.png"] drawInRect:self.bounds];
+    //UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    //UIGraphicsEndImageContext();
+    
+    //self.backgroundColor = [UIColor colorWithPatternImage:image];
+    //[self setBackgroundColor:[UIColor colorWithPatternImage:image]];
 }
 
 - (void)_initializeTick:(SBTickerViewTickDirection)direction {

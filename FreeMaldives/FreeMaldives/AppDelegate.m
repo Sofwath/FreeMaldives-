@@ -22,6 +22,7 @@
 @synthesize viewController;
 @synthesize pushManager;
 
+
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)devToken {
     [pushManager handlePushRegistration:devToken];
     
@@ -170,14 +171,7 @@
   sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     return [facebook handleOpenURL:url]; 
 }
-- (void)fbDidLogin {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:[facebook accessToken] forKey:@"FBAccess-TokenKey"];
-    [defaults setObject:[facebook expirationDate] forKey:@"FBExpiration-DateKey"];
-    [defaults synchronize];
-    NSLog(@"HERE I AM");
-    
-}
+
 
 
 

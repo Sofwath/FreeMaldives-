@@ -7,22 +7,35 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DACircularProgressView.h"
-#import "LeveyPopListView.h"
+#import "TSMiniWebBrowser.h"
+
+@class ViewController;
 
 
-@interface MDMWebViewController : UIViewController <UIWebViewDelegate,LeveyPopListViewDelegate> {
-    IBOutlet UIWebView *webView;
-    NSTimer *timer;
-    BOOL *mvd; 
+@interface MDMWebViewController : UITableViewController <TSMiniWebBrowserDelegate> {
+    NSString *url;
+    
 }
-@property (strong, nonatomic) IBOutlet UIWebView *webView;
-@property (strong, nonatomic) DACircularProgressView *progressView;
-@property (strong, nonatomic) NSArray *options;
-@property (weak, nonatomic) IBOutlet UINavigationBar *navBar;
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *urlList;
 
-- (void) OpenURL :(NSString *) urlAddress second:(NSString *) titleBar;
++ (NSString *)myGlobalVariable;
++ (void)setMyGlobalVariable:(NSString *)val;
+
 -(IBAction) urlList:(id) sender;
+
+@property (strong, nonatomic) ViewController *viewController;
+
+
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellOne;
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellTwo;
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellThree;
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellFour;
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellFive;
+@property (weak, nonatomic) IBOutlet UITableViewCell *cellSix;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UILabel *urlstore;
+
+@property(nonatomic, retain) NSString *url;
+@property(nonatomic, retain) NSString *myGlobalVariable;
 
 @end

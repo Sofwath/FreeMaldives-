@@ -22,6 +22,13 @@
                                     <navigationItem title="Maldives Democracy Movement" id="FVE-1l-ccK"/>
                                 </items>
                             </navigationBar>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="qv8-SA-fyP" userLabel="TimerLabel">
+                                <rect key="frame" x="139" y="195" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Since the coup in Maldives. Call for immediate elections" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="MK2-Wm-u0Z">
                                 <rect key="frame" x="6" y="122" width="307" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -75,7 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="y2j-BQ-wsd" userLabel="carousel" customClass="iCarousel">
-                                <rect key="frame" x="0.0" y="154" width="320" height="257"/>
+                                <rect key="frame" x="0.0" y="143" width="320" height="257"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="2" id="p6A-wg-Kp7"/>
@@ -85,47 +92,47 @@
                             <view contentMode="scaleToFill" id="meQ-EI-iUm" customClass="SBTickerView">
                                 <rect key="frame" x="6" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="PQt-jd-cJA" customClass="SBTickerView">
                                 <rect key="frame" x="39" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="CIs-9C-Ktn" customClass="SBTickerView">
                                 <rect key="frame" x="72" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="Uqa-HQ-vM5" customClass="SBTickerView">
                                 <rect key="frame" x="109" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="udf-tA-GYN" customClass="SBTickerView">
                                 <rect key="frame" x="142" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="YLI-oJ-a7y" customClass="SBTickerView">
                                 <rect key="frame" x="179" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="YQw-ZK-18j" customClass="SBTickerView">
                                 <rect key="frame" x="212" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="ilh-eN-pQy" customClass="SBTickerView">
                                 <rect key="frame" x="249" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="lxY-eC-o21" customClass="SBTickerView">
                                 <rect key="frame" x="282" y="58" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -149,45 +156,238 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--Web View Controller - From Web-->
-        <scene sceneID="zLB-cG-4MD">
+        <!--Web View Controller - Title-->
+        <scene sceneID="DpO-bJ-cRS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PCI-GD-aFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Z4y-ag-LU2" customClass="MDMWebViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0cR-pX-fae">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RbM-s0-Dbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController modalTransitionStyle="flipHorizontal" id="FnV-31-zEI" customClass="MDMWebViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bounces="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="RSS-aa-Qyb" userLabel="tableView">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" id="ybc-Cr-CoD">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Web" id="x7D-uI-508">
-                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="bookmarks" id="5D4-ce-kgi">
-                                            <connections>
-                                                <action selector="urlList:" destination="Z4y-ag-LU2" id="kqG-v9-T0I"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <webView contentMode="scaleToFill" id="4yk-By-5yp">
-                                <rect key="frame" x="0.0" y="44" width="320" height="367"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="From Web" image="globe.png" id="rGB-Yi-cii"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="L0j-97-9Bq">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" id="1f6-MR-1mk">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" id="keN-TC-Jin">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                    <items>
+                                                        <navigationItem title="From the Web" id="dsK-Ri-Cvk"/>
+                                                    </items>
+                                                </navigationBar>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="M4S-up-nqJ" userLabel="cellOne">
+                                        <rect key="frame" x="0.0" y="44" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wvmoon.png" id="mwe-wL-VaF">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="moonlight.com.mv" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="65Q-Nx-VdC">
+                                                    <rect key="frame" x="78" y="17" width="211" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="moonlight" modalTransitionStyle="crossDissolve" id="pbT-GZ-GHK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="6Yv-Li-BMS" userLabel="cellTwo">
+                                        <rect key="frame" x="0.0" y="104" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="NEWDO.png" id="GBf-ge-Itj">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="New Dhivehi Observer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ceH-WN-dJQ">
+                                                    <rect key="frame" x="78" y="17" width="211" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="ndo" modalTransitionStyle="crossDissolve" id="v3o-Yd-Jil"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="DW4-ev-nxX" userLabel="cellThree">
+                                        <rect key="frame" x="0.0" y="164" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wvuthuru.png" id="Zfb-gj-vgG">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="uthuru.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="LEc-d3-4pB">
+                                                    <rect key="frame" x="78" y="17" width="233" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="uthuru" modalTransitionStyle="crossDissolve" id="wb8-83-NIf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="SEr-d0-i1U" userLabel="cellFour">
+                                        <rect key="frame" x="0.0" y="224" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wvdemomaldives.png" id="igQ-3E-qgS">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="maldivesdemocracymovement.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="BUk-0b-qiP">
+                                                    <rect key="frame" x="78" y="17" width="233" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="mdm" modalTransitionStyle="crossDissolve" id="PF8-cx-HQJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="fJe-Fn-XRK" userLabel="cellFive">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mvd.png" id="gJX-aI-B2B">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="mvdemocracy.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gCq-T0-1uV">
+                                                    <rect key="frame" x="78" y="17" width="233" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="mvd" modalTransitionStyle="crossDissolve" id="CcZ-QT-4em"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="2bU-HH-NG2" userLabel="cellSix">
+                                        <rect key="frame" x="0.0" y="344" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wvdetainee.png" id="ICx-dP-QbZ">
+                                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="political detainees" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="oOg-Ms-s6i">
+                                                    <rect key="frame" x="78" y="17" width="233" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="OOg-1q-zK6" kind="modal" identifier="dl" modalTransitionStyle="crossDissolve" id="Z8j-vM-uom"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="FnV-31-zEI" id="Cef-RD-Z7Q"/>
+                            <outlet property="delegate" destination="FnV-31-zEI" id="JZ8-I9-JR3"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" image="globe.png" id="Ha4-xX-ic6"/>
+                    <navigationItem key="navigationItem" title="Title" id="qT2-1A-rcx"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="navBar" destination="ybc-Cr-CoD" id="AXn-8N-crB"/>
-                        <outlet property="urlList" destination="5D4-ce-kgi" id="KpT-iq-DWG"/>
-                        <outlet property="webView" destination="4yk-By-5yp" id="wO8-J8-CNr"/>
+                        <outlet property="cellFive" destination="fJe-Fn-XRK" id="rb5-fv-Yeq"/>
+                        <outlet property="cellFour" destination="SEr-d0-i1U" id="VWX-0z-S8n"/>
+                        <outlet property="cellOne" destination="M4S-up-nqJ" id="ELD-rZ-4lL"/>
+                        <outlet property="cellSix" destination="2bU-HH-NG2" id="9Bi-aQ-L89"/>
+                        <outlet property="cellThree" destination="DW4-ev-nxX" id="52R-7d-4hf"/>
+                        <outlet property="cellTwo" destination="6Yv-Li-BMS" id="mwL-Je-47x"/>
+                        <outlet property="imageView" destination="PK8-fp-Lhl" id="70G-lg-LWY"/>
+                        <outlet property="tableView" destination="RSS-aa-Qyb" id="5Xj-5t-kps"/>
+                        <outlet property="urlstore" destination="K5l-Ww-Bd7" id="0t0-mw-6od"/>
                     </connections>
-                </viewController>
+                </tableViewController>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="PK8-fp-Lhl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="K5l-Ww-Bd7">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </objects>
-            <point key="canvasLocation" x="642" y="650"/>
+            <point key="canvasLocation" x="505" y="446"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zIh-lv-Fad">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1E-CK-oMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="OOg-1q-zK6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6EX-9H-XIS"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="85h-z5-iNQ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nVi-J8-RUV" kind="relationship" relationship="rootViewController" id="BSD-zn-Y9y"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1099" y="446"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -202,8 +402,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
-                        <segue destination="Z4y-ag-LU2" kind="relationship" relationship="viewControllers" id="UJi-8e-NU7"/>
                         <segue destination="ag4-rW-fM8" kind="relationship" relationship="viewControllers" id="fKV-DM-KBe"/>
+                        <segue destination="FnV-31-zEI" kind="relationship" relationship="viewControllers" id="9mH-4y-3Qb"/>
                     </connections>
                 </tabBarController>
             </objects>
@@ -1031,21 +1231,19 @@ resigning under duress.</string>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="223" id="Hc2-mf-Vmh">
-                                        <rect key="frame" x="0.0" y="4594" width="320" height="223"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="182" id="Hc2-mf-Vmh">
+                                        <rect key="frame" x="0.0" y="4594" width="320" height="182"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="181"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="dys-Fh-xQD">
-                                                    <rect key="frame" x="5" y="109" width="295" height="104"/>
+                                                    <rect key="frame" x="5" y="109" width="295" height="67"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <string key="text">Mohamed Nazim, in civilian clothes, addresses the gathered crowd of police and MNDF dissenters. They address 
-him as Sir (usually reserved for command positions). He announces to the mutinying police and military officers 
-that their demand for the "unconditional resignation" of President Nasheed has been conveyed, and said "by the 
-will of god we have won (ourselves) a victory"</string>
+                                                    <string key="text">Dr Waheed goes to the People’s Majlis where the oath of Office is administered.  Legal experts dispute the validity 
+of his oath as he had forgotten to mention his own name during the oath. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -1065,7 +1263,7 @@ will of god we have won (ourselves) a victory"</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="190" id="MtZ-Da-9bY">
-                                        <rect key="frame" x="0.0" y="4817" width="320" height="190"/>
+                                        <rect key="frame" x="0.0" y="4776" width="320" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
@@ -1105,7 +1303,7 @@ the crowds that he resigned under duress.</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="272" id="YEl-rD-d4x">
-                                        <rect key="frame" x="0.0" y="5007" width="320" height="272"/>
+                                        <rect key="frame" x="0.0" y="4966" width="320" height="272"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="271"/>
@@ -1141,7 +1339,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="137" id="edW-7z-adp">
-                                        <rect key="frame" x="0.0" y="5279" width="320" height="137"/>
+                                        <rect key="frame" x="0.0" y="5238" width="320" height="137"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="136"/>
@@ -1163,7 +1361,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="114" id="l08-Hh-rZh">
-                                        <rect key="frame" x="0.0" y="5416" width="320" height="114"/>
+                                        <rect key="frame" x="0.0" y="5375" width="320" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
@@ -1185,7 +1383,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="114" id="nUU-AY-lbl">
-                                        <rect key="frame" x="0.0" y="5530" width="320" height="114"/>
+                                        <rect key="frame" x="0.0" y="5489" width="320" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
@@ -1207,7 +1405,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="114" id="wiL-Ec-Zvl">
-                                        <rect key="frame" x="0.0" y="5644" width="320" height="114"/>
+                                        <rect key="frame" x="0.0" y="5603" width="320" height="114"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
@@ -1229,7 +1427,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="310" id="lMK-cU-kCL">
-                                        <rect key="frame" x="0.0" y="5758" width="320" height="310"/>
+                                        <rect key="frame" x="0.0" y="5717" width="320" height="310"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="309"/>
@@ -1251,7 +1449,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="137" id="0JR-Km-HZI">
-                                        <rect key="frame" x="0.0" y="6068" width="320" height="137"/>
+                                        <rect key="frame" x="0.0" y="6027" width="320" height="137"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="136"/>
@@ -1273,7 +1471,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="ESV-eT-YPo">
-                                        <rect key="frame" x="0.0" y="6205" width="320" height="157"/>
+                                        <rect key="frame" x="0.0" y="6164" width="320" height="157"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="156"/>
@@ -1295,7 +1493,7 @@ batons and sticks, as well as from being sprayed into eyes and mouths with peppe
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="270" id="7FF-uv-TaT">
-                                        <rect key="frame" x="0.0" y="6362" width="320" height="270"/>
+                                        <rect key="frame" x="0.0" y="6321" width="320" height="270"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="269"/>
@@ -1330,7 +1528,7 @@ been cleared by the Judicial Services Commission (JSC)</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="190" id="jbr-G1-LQ1">
-                                        <rect key="frame" x="0.0" y="6632" width="320" height="190"/>
+                                        <rect key="frame" x="0.0" y="6591" width="320" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
@@ -1373,7 +1571,7 @@ juncture. We want peace now."</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="606" id="JQ9-Iw-PvO">
-                                        <rect key="frame" x="0.0" y="6822" width="320" height="606"/>
+                                        <rect key="frame" x="0.0" y="6781" width="320" height="606"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="606"/>
@@ -1449,7 +1647,7 @@ are just a few names.</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="247" id="sq9-IE-KLt">
-                                        <rect key="frame" x="0.0" y="7428" width="320" height="247"/>
+                                        <rect key="frame" x="0.0" y="7387" width="320" height="247"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="246"/>
@@ -1482,7 +1680,7 @@ emergency, to treat for injuries after police fired pepper spray into her mouth 
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="321" id="Hdv-Nz-pDL">
-                                        <rect key="frame" x="0.0" y="7675" width="320" height="321"/>
+                                        <rect key="frame" x="0.0" y="7634" width="320" height="321"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
@@ -1516,7 +1714,7 @@ stepping down and announcing of an election.</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="91" id="Q4y-6p-e7t">
-                                        <rect key="frame" x="0.0" y="7996" width="320" height="91"/>
+                                        <rect key="frame" x="0.0" y="7955" width="320" height="91"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
@@ -1543,7 +1741,7 @@ appointed the head of the Commission.   </string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="111" id="Gj2-gm-Wzf">
-                                        <rect key="frame" x="0.0" y="8087" width="320" height="111"/>
+                                        <rect key="frame" x="0.0" y="8046" width="320" height="111"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
@@ -1573,7 +1771,7 @@ Commonwealth Ministerial Action Group (CMAG) calls to hold early elections “wi
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="442" id="7k7-cQ-ytI">
-                                        <rect key="frame" x="0.0" y="8198" width="320" height="442"/>
+                                        <rect key="frame" x="0.0" y="8157" width="320" height="442"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="442"/>
@@ -1614,7 +1812,7 @@ courageous. Today you are all mujahedeen [those who fight jihad] who love the na
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="293" id="3x9-zN-1sx">
-                                        <rect key="frame" x="0.0" y="8640" width="320" height="293"/>
+                                        <rect key="frame" x="0.0" y="8599" width="320" height="293"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="292"/>
@@ -1648,7 +1846,7 @@ highlights several injuries caused to unarmed demonstrators.</string>
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="397" id="Snt-x8-x6c">
-                                        <rect key="frame" x="0.0" y="8933" width="320" height="397"/>
+                                        <rect key="frame" x="0.0" y="8892" width="320" height="397"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="396"/>
@@ -1686,7 +1884,7 @@ demonstrated have caused a rise in female involvement in street protests. </stri
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="336" id="2FI-wp-zB5">
-                                        <rect key="frame" x="0.0" y="9330" width="320" height="336"/>
+                                        <rect key="frame" x="0.0" y="9289" width="320" height="336"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="335"/>
@@ -1722,7 +1920,7 @@ forefront of active politics has been welcomed and encouraged by Nasheed and the
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="217" id="5gH-zW-pHO">
-                                        <rect key="frame" x="0.0" y="9666" width="320" height="217"/>
+                                        <rect key="frame" x="0.0" y="9625" width="320" height="217"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
@@ -1755,7 +1953,7 @@ continues to express concerns over Waheed’s alliance and association with the 
                                         </view>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="551" id="nHK-bS-NFQ">
-                                        <rect key="frame" x="0.0" y="9883" width="320" height="551"/>
+                                        <rect key="frame" x="0.0" y="9842" width="320" height="551"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="551"/>
@@ -1834,12 +2032,65 @@ country stands the risk of joining the league of failed democracies in the regio
             </objects>
             <point key="canvasLocation" x="133" y="1135"/>
         </scene>
+        <!--BrowserViewController-->
+        <scene sceneID="jqg-NI-GQA">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YBd-dz-OgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="BrowserViewController" id="nVi-J8-RUV" userLabel="BrowserViewController" customClass="BrowserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jXo-CW-9E7">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="6o1-uw-Efu" userLabel="Web View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="372"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="Bbr-Bg-IIm">
+                                <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem image="back_icon.png" style="plain" id="CnR-Cy-KKW"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="JL8-I0-dcV"/>
+                                    <barButtonItem image="forward_icon.png" style="plain" id="1Gd-kb-6Lu"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="6Yp-Ym-Tc8"/>
+                                    <barButtonItem style="plain" systemItem="stop" id="MQI-6b-jSa"/>
+                                    <barButtonItem width="52" style="plain" systemItem="fixedSpace" id="NgP-o0-QQd"/>
+                                    <barButtonItem style="plain" systemItem="refresh" id="1HU-dD-z93"/>
+                                    <barButtonItem image="flaghand.png" style="plain" id="ejo-k4-eMO">
+                                        <connections>
+                                            <segue destination="4" kind="modal" modalTransitionStyle="coverVertical" id="i61-I4-OXW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aLf-zD-XDb">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="NbU-wm-6rh"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="CnR-Cy-KKW" id="Za9-nz-5Be"/>
+                        <outlet property="forwardButton" destination="1Gd-kb-6Lu" id="Dvz-iQ-ZcR"/>
+                        <outlet property="home" destination="ejo-k4-eMO" id="UxE-Vz-rVR"/>
+                        <outlet property="reloadButton" destination="1HU-dD-z93" id="B7G-Ta-rdk"/>
+                        <outlet property="rightBarButtonItem" destination="NbU-wm-6rh" id="wkS-to-JtU"/>
+                        <outlet property="stopButton" destination="MQI-6b-jSa" id="2YJ-og-qEA"/>
+                        <outlet property="toolbar" destination="Bbr-Bg-IIm" id="2mL-Q8-dad"/>
+                        <outlet property="webView" destination="6o1-uw-Efu" id="Xm5-u9-Uj4"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="717" y="1200"/>
+        </scene>
     </scenes>
     <resources>
         <image name="6thPolice.png" width="320" height="66"/>
         <image name="8thpoliceaattacks.png" width="320" height="112"/>
         <image name="Anni.png" width="194" height="213"/>
         <image name="BaageeVPMeeting.png" width="320" height="83"/>
+        <image name="NEWDO.png" width="50" height="50"/>
         <image name="abdullaG.png" width="176" height="193"/>
         <image name="adduprotest.png" width="320" height="119"/>
         <image name="anniattacked.png" width="300" height="263"/>
@@ -1850,8 +2101,10 @@ country stands the risk of joining the league of failed democracies in the regio
         <image name="baageeGasimandCo.png" width="320" height="119"/>
         <image name="baageehuvaa.png" width="837" height="232"/>
         <image name="baageenaziminterview.png" width="320" height="122"/>
+        <image name="back_icon.png" width="21" height="18"/>
         <image name="fandnazim.png" width="320" height="89"/>
         <image name="flaghand.png" width="36" height="36"/>
+        <image name="forward_icon.png" width="21" height="18"/>
         <image name="globe.png" width="36" height="36"/>
         <image name="hassansaeed.png" width="320" height="111"/>
         <image name="letterbaagee.png" width="320" height="90"/>
@@ -1867,6 +2120,7 @@ country stands the risk of joining the league of failed democracies in the regio
         <image name="mncb_inside.png" width="320" height="181"/>
         <image name="msamah.png" width="320" height="55"/>
         <image name="mullahs.png" width="320" height="102"/>
+        <image name="mvd.png" width="50" height="50"/>
         <image name="poofficeescort.png" width="320" height="42"/>
         <image name="ppmraa.png" width="320" height="80"/>
         <image name="reekoattack.png" width="320" height="81"/>
@@ -1874,61 +2128,11 @@ country stands the risk of joining the league of failed democracies in the regio
         <image name="standoff.png" width="320" height="73"/>
         <image name="vclash.png" width="320" height="70"/>
         <image name="womenprotestwater.png" width="320" height="75"/>
+        <image name="wvdemomaldives.png" width="50" height="50"/>
+        <image name="wvdetainee.png" width="50" height="50"/>
+        <image name="wvmoon.png" width="50" height="50"/>
+        <image name="wvuthuru.png" width="60" height="60"/>
     </resources>
-    <classes>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="sendEasyTweet:"/>
-                <relationship kind="outlet" name="HiddenLbl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="TimerLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="backView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="carousel" candidateClass="iCarousel"/>
-                <relationship kind="outlet" name="clockTickerViewDay1" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewDay2" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewDay3" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewHour1" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewHour2" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewMinute1" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewMinute2" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewSecond1" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="clockTickerViewSecond2" candidateClass="SBTickerView"/>
-                <relationship kind="outlet" name="easyTweetButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="frontView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="MDMWebViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDMWebViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="urlList:"/>
-                <relationship kind="outlet" name="navBar" candidateClass="UINavigationBar"/>
-                <relationship kind="outlet" name="urlList" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="SBTickerView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SBTickerView.h"/>
-        </class>
-        <class className="TimeViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TimeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="_tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="iCarousel" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/iCarousel.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dataSource"/>
-                <relationship kind="outlet" name="delegate"/>
-            </relationships>
-        </class>
-        <class className="videoOneViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/videoOneViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -13,6 +13,7 @@
 #import "PushNotificationManager.h"
 
 
+
 //FirstViewController
 
 @class FirstViewController;
@@ -26,7 +27,6 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, retain) IBOutlet FirstViewController *viewController;
 @property (nonatomic, retain) PushNotificationManager *pushManager;
-
 
 @end
 

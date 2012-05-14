@@ -138,27 +138,9 @@
     
     //[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
     
-    // timer
-    [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(numberTick:) userInfo:nil repeats:YES];
     
-    //Init
-    _currentClock = @"000000000";
-    _clockTickers = [NSArray arrayWithObjects:
-                     clockTickerViewDay1,
-                     clockTickerViewDay2,
-                     clockTickerViewDay3,
-                     clockTickerViewHour1,
-                     clockTickerViewHour2,
-                     clockTickerViewMinute1,
-                     clockTickerViewMinute2,
-                     clockTickerViewSecond1,
-                     clockTickerViewSecond2, nil];
     
-    for (SBTickerView *ticker in _clockTickers)
-        [ticker setFrontView:[SBTickView tickViewWithTitle:@"0" fontSize:35.]];
-    //
-    
-    carousel.type = iCarouselTypeCoverFlow;
+    carousel.type = iCarouselTypeCoverFlow; // for tricks can change so on shake event change type (random) ?
     
     
     
@@ -174,10 +156,34 @@
     //the menu for social 
     [self initQuadCurveMenu];
     
+    // timer
+    [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(numberTick:) userInfo:nil repeats:YES];
+    
+    //Init
+    _currentClock = @"-*-*-*-*-";
+    _clockTickers = [NSArray arrayWithObjects:
+                     clockTickerViewDay1,
+                     clockTickerViewDay2,
+                     clockTickerViewDay3,
+                     clockTickerViewHour1,
+                     clockTickerViewHour2,
+                     clockTickerViewMinute1,
+                     clockTickerViewMinute2,
+                     clockTickerViewSecond1,
+                     clockTickerViewSecond2, nil];
+    
+    for (SBTickerView *ticker in _clockTickers){
+        [ticker setFrontView:[SBTickView tickViewWithTitle:@"-" fontSize:35.]];    
+        //TO-DO : implement image with flip ticker ... working on it
+        //[ticker setFrontView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"clockbg.png"]]];
+        //[ticker setBackView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"clockbg.png"]]];
+    }
+    //
+    
             
 
 }
-
+/* old timer 
 -(void)changeValue{
     
     
@@ -233,7 +239,7 @@
     
     
 }
-
+*/
 
 
 //- (IBAction)sendEasyTweet:(id)sender {
@@ -667,7 +673,9 @@
     
     _currentClock = newClock;
     
-    NSLog(@"Clock: %@",_currentClock);
+    HiddenLbl.text = [NSString stringWithFormat:@"%02d days %02d hours %02d minutes %02d seconds",days,hours,minutes,seconds];
+    
+    //NSLog(@"Clock: %@",_currentClock);
 }
 
 

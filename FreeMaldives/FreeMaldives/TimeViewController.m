@@ -9,6 +9,7 @@
 
 
 #import "TimeViewController.h"
+#import "DAAutoTableView.h"
 
 //@interface TimeViewController ()
 
@@ -414,14 +415,25 @@
     
     NSLog(@"loaded stuff... ");
     
+    //[(DAAutoTableView *)self.view setPointsPerSecond:10.0f];
+    //[(DAAutoTableView *)self.view startScrolling];
+
 }
 
 - (void)viewDidLoad
 {
-    [self setUp];
     [super viewDidUnload];
+    [self setUp];
+       
 }
 
+
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    //[(DAAutoTableView *)self.view startScrolling];
+    [_timeScroller scrollViewDidEndDecelerating];
+}
 
 
 - (void)dealloc {
@@ -474,11 +486,7 @@
     
 }
 
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-        
-    [_timeScroller scrollViewDidEndDecelerating];
-    
-}
+
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     
@@ -491,7 +499,8 @@
     
     if (!decelerate) {
         [_timeScroller scrollViewDidEndDecelerating];
-        
+        //[(DAAutoTableView *)self.view startScrolling];
+
     }
     
 }

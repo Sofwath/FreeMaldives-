@@ -21,6 +21,14 @@
         [self setTitleColor:[UIColor colorWithWhite:0.7 alpha:1.000]];
         [self setBackgroundColor:[UIColor clearColor]];
         [self setFontSize:50.];
+
+        
+        //[self setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"clockbg.png"]]];
+        
+        
+        
+        
+
     }
     return self;
 }
@@ -34,7 +42,7 @@
 - (void)drawRect:(CGRect)rect {
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, 0.1, 0.1)
                                                     cornerRadius:5.];
-    [self.backColor set];
+    //[self.backColor set];
     [path fill];
     
     [self.titleColor set];
